@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Jost', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #e0e0e0;
+  }
+  #todoApp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    /* border:1px solid gray; */
+  }
+  .header{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1fb3a4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color: white;
+    text-align: center
+  }
+  h3{
+      user-select: none;
+  }
+  h1{
+      user-select: none;
+  }
+  .todo{
+   
+    text-align: center;
+  }
+  .todo ul{
+      list-style: none;
+
+  }
+  .todo li{
+      padding: .5rem;
+      font-size: 1.2em;
+      background-color: white;
+      border-left: 3px solid #1fb3a4;
+      border-bottom: 2px solid #1fb3a4;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+      user-select: none;
+      cursor: pointer;
+      margin-top: 10px;
+  }
+  .todo li:hover{
+    box-shadow: 0 6px 8px rgba(238, 125, 125, 0.452);
+    border-left: 3px solid #cf7070;
+    border-bottom: 2px solid #cf7070;
+
+  } 
+  .input{
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    border-left: 3px solid #1fb3a4;
+    border-right: 3px solid #1fb3a4;
+    border-bottom: 2px solid #1fb3a4;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
+  }
+  .todo input{
+      width: 350px;
+      outline: none;
+      padding: .5rem;
+      border: none;
+
+  }
+  .todo button{
+      padding: .5rem;
+      border: #1fb3a4;
+      background-color: #1fb3a4;
+     
+      color: white;
+      font-weight: 700;
+      user-select: none;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+
+  }
+  .todo button:hover{
+    background-color: #23887e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.623);
+  }
+  .finished-header{
+      border-bottom: 2px solid gray;
+  }
+  .todo-header{
+      border-bottom: 2px solid gray;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .finished{
+   
+    text-align: center;  
+  }
+  .finished ul{
+    list-style: none;
+    }
+ .finished li{
+    padding: .5rem;
+      background-color: white;
+      box-shadow: 0 6px 8px rgba(238, 125, 125, 0.452);
+      border-left: 3px solid #cf7070;
+      border-bottom: 2px solid #cf7070;
+      text-decoration: line-through double;
+      color: gray;
+      font-size: 1.2em;
+      user-select: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .finished li:hover{
+        box-shadow: 0 6px 8px #1fb3a473;
+        border-left: 3px solid #1fb3a4;
+        border-bottom: 2px solid #1fb3a4;
+    }
